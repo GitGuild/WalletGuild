@@ -1,0 +1,3 @@
+[submodule "sidechains/DashMNGuild"]
+	path = sidechains/DashMNGuild
+	url = https://github.com/GitGuild/DashMNGuild.git

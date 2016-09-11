@@ -9,4 +9,33 @@
     GWLT:Earned:isysd             1 GWLT
 
 P 2016/09/10 14:00:01 GWLT 1000 GDASH
+P 2016/09/10 12:00:03 DASH $11.30
+P 2016/09/10 17:00:03 GWLT $11300
+
+2016/09/10 12:00:03 * desw founded
+    XP:Issued                     -0.55 XP
+    XP:Earned:isysd               0.45 XP
+    XP:Earned:d3brouille          0.05 XP
+    XP:Earned:cindy-zimmerman      0.05 XP
+
+2016/09/10 12:00:03 * de-cosigner founded
+    XP:Issued                     -0.105 XP
+    XP:Earned:isysd               0.1 XP
+    XP:Earned:d3brouille          0.005 XP
+
+2016/09/10 12:00:03 * desw test deploy
+    XP:Issued                     -0.05 XP
+    XP:Earned:welshjf             0.05 XP
+    GWLT:Issued                   -0.0525 GWLT
+    GWLT:Earned:welshjf           0.05  GWLT
+    FX:GWLT:GitGuild              0.0005 GWLT
+    FX:GWLT:TAPPGuild              0.002 GWLT
+
+2016/09/10 12:00:03 * lamassu-machine founded
+    FX:GCTM:CTMGuild              -0.01 GCTM
+    Assets:Treasury               0.01 GCTM
+
+2016/09/10 12:00:03 * lamassu-server founded
+    FX:GCTM:CTMGuild              -0.015 GCTM
+    Assets:Treasury               0.015 GCTM
 

@@ -1,41 +1,39 @@
 ; -*- ledger -*-
 
-2016/09/10 14:00:00 * Founder Block
-    Assets:Treasury               1000 GDASH
-    FX:GDASH:DashMNGuild          -1000 GDASH
-    XP:Issued                     -1 XP
-    XP:Earned:isysd               1 XP
-    GWLT:Issued                   -1 GWLT
-    GWLT:Earned:isysd             1 GWLT
-
-P 2016/09/10 14:00:01 GWLT 1000 GDASH
-P 2016/09/10 12:00:03 DASH $11.30
-P 2016/09/10 17:00:03 GWLT $11300
+2016/09/10 12:00:00 * Founder Block
+    Experience                    -1 XP
+    isysd:Assets                  1 XP
+    Liabilities                   -1 GWLT
+    isysd:Assets                  1 GWLT
 
 2016/09/10 12:00:03 * desw founded
-    XP:Issued                     -0.55 XP
-    XP:Earned:isysd               0.45 XP
-    XP:Earned:d3brouille          0.05 XP
-    XP:Earned:cindy-zimmerman      0.05 XP
+    Experience                    -0.55 XP
+    isysd:Assets                  0.45 XP
+    d3brouille:Assets             0.05 XP
+    cindy-zimmerman:Assets        0.05 XP
 
 2016/09/10 12:00:03 * de-cosigner founded
-    XP:Issued                     -0.105 XP
-    XP:Earned:isysd               0.1 XP
-    XP:Earned:d3brouille          0.005 XP
+    Experience                    -0.105 XP
+    isysd:Assets                  0.1 XP
+    d3brouille:Assets             0.005 XP
 
 2016/09/10 12:00:03 * desw test deploy
-    XP:Issued                     -0.05 XP
-    XP:Earned:welshjf             0.05 XP
-    GWLT:Issued                   -0.0525 GWLT
-    GWLT:Earned:welshjf           0.05  GWLT
-    FX:GWLT:GitGuild              0.0005 GWLT
-    FX:GWLT:TAPPGuild              0.002 GWLT
+    Experience                    -0.05 XP
+    welshjf:Assets                0.05 XP
+    Liabilities                   -0.0525 GWLT
+    welshjf:Assets                0.05  GWLT
+    GX:GitGuild                   0.0005 GWLT
+    GX:TAPPGuild                  0.002 GWLT
 
 2016/09/10 12:00:03 * lamassu-machine founded
-    FX:GCTM:CTMGuild              -0.01 GCTM
-    Assets:Treasury               0.01 GCTM
+    GX:CTMGuild                   -0.01 GCTM
+    Assets                        0.01 GCTM
 
 2016/09/10 12:00:03 * lamassu-server founded
-    FX:GCTM:CTMGuild              -0.015 GCTM
-    Assets:Treasury               0.015 GCTM
+    GX:CTMGuild                   -0.015 GCTM
+    Assets                        0.015 GCTM
+
+2016/09/10 12:01:02 * Funded Block
+    Assets                        1000 GDASH
+    GX:DashMNGuild                -1000 GDASH
 
